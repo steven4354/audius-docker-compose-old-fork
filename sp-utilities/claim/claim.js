@@ -167,4 +167,12 @@ async function main() {
   }
 }
 
-main()
+// main()
+
+module.exports = {
+  initiateRound,
+  claimRewards,
+  defaultRegistryAddress,
+  defaultTokenAddress,
+  defaultWeb3Provider,
+}
