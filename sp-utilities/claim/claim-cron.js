@@ -1,7 +1,7 @@
 const claimFuncs = require("./claim.js");
 const CronJob = require('cron').CronJob;
 
-const SP_OWNER_WALLET = "0x4e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e";
+const SP_OWNER_WALLET = "0x61A1BC089f87F1C0e38A34207D65077484d89088";
 const PK = "0x4e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e";
 
 const job = new CronJob(
